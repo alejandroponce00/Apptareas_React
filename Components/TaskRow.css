@@ -1,0 +1,32 @@
+#tabla_tareas {
+    display: flex;
+    justify-content: center;
+    background-color: #402268;
+    padding-top: 14px;
+    border-radius: 20px;
+    margin: 40px 10px 0;
+    color: #fdf3ed;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 0 7px 15px rgba(0, 0, 0, 0.5);
+    width: 85%;
+    height: 140px;
+}
+
+p {
+    text-align: center;
+}
+
+.nombre_tarea {
+    font-size: 16px;
+    padding-bottom: 15px;
+}
+
+.descripcion_tarea {
+    color: #402268;
+    font-size: 14px;
+}
+
+.tareas_pendientes_botones {
+    background-color: #fdf3ed;
+    padding: 10px;
+}

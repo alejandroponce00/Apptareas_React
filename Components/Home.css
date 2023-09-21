@@ -1,0 +1,25 @@
+#bienvenido {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    color: #402268;
+}
+
+#usuario{
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    color: #402268;
+}
+button {
+    display: flex;
+    background-color: #402268;
+    color: #fdf3ed;
+    border: 1px solid #fbdbca;
+    margin: 20px auto 10px;
+    height: 1.8rem;
+    width: 12rem;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+}

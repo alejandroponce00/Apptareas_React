@@ -1,0 +1,43 @@
+form {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly !important;
+    width: 400px;
+    margin: auto;
+}
+
+input {
+    border-radius: 10px;
+    border: lightgrey 1px solid;
+    min-height: 2rem;
+    width: 20rem;
+    margin: 5px;
+}
+
+input::placeholder {
+    text-align: center;
+}
+
+.my-2{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    background-color: #402268;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    border-radius: 20px;
+    outline: none;
+    margin: 40px auto 60px;
+    color: #fdf3ed;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 0 7px 15px rgba(0, 0, 0, 0.5);
+}
+
+#guardar_tarea {
+    background-color: #fdf3ed;
+    color: #402268;
+    margin: 17px auto 15px;
+}

@@ -1,0 +1,49 @@
+.table_lista_tareas_header {
+    width: 400px;
+    font-size: 18px;
+    background-color: #402268;
+    padding: 5px 0 0;
+    border-radius: 20px 20px 0 0;
+    margin: auto;
+    color:#fdf3ed;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+th{
+    padding: 15px;
+    border: none;
+}
+.table-primary {
+    border: none;
+}
+#tareas_pendientes{
+    background-color: #fdf3ed;
+    color: #402268;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.tareas_pendientes_botones{
+    width: 340px;
+    border-radius: 0 0 20px 20px;
+}
+
+.botones_tareas {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 5px;
+   
+}
+
+.btn_tareas_pendientes{
+    font-size: 11px;
+    width: 100px;
+    margin: 10px;
+}

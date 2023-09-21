@@ -1,0 +1,67 @@
+.registro_usuario {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    font-size: 18px;
+    background-color: #402268;
+    padding-top: 14px;
+    border-radius: 20px;
+    outline: none;
+    left: 0;
+    right: 0;
+    margin: 40px auto 40px;
+    color:#fdf3ed;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 0 7px 15px rgba(0, 0, 0, 0.5);
+}
+.titulo{
+    font-size: 0.9rem;
+    font-weight: 100;
+    padding: 15px 15px 22px;
+    color:#fdf3ed;
+} 
+
+.formulario{
+    border-radius: 0 0 15px 15px;
+    padding: 15px 0 25px;
+    background-color: #fdf3ed;
+    width: 100%;
+    color: #402268;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;  
+ }
+
+label {
+    padding-top: 3px;
+    display: inline-block;
+    width: 90px;
+}
+
+input {
+    border-radius: 10px;
+    border: 1px solid #2b124c;
+    margin: 5px 0 10px 10px;
+    height: 1.5rem;
+    width: 12rem;
+  }
+
+.div_input {
+    display: flex;
+    padding: 7px;
+    align-content: center;
+    justify-content: center;
+  }
+
+.boton {
+    background-color:#402268;
+    color:#fdf3ed;
+    border: 1px solid #fbdbca;
+    margin: 20px auto 10px;
+    height: 1.8rem;
+    width: 12rem;
+}

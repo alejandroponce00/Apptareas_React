@@ -1,0 +1,10 @@
+ #usuario_lista_tareas{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 400px;
+    color: #402268;
+    margin: auto;
+}

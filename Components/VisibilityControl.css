@@ -1,0 +1,36 @@
+.listado_tareas {
+    display: flex;
+    border-radius: 0 0 15px 15px;
+    padding: 15px 0 25px;
+    background-color: #fdf3ed;
+    width: 400px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #402268;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.btn_limpiar_tareas {
+    height: 2rem;
+    width: 12rem;
+    margin: 20px auto 10px;
+    border-radius: 10px;
+    border:#fefefe 1px solid;
+}
+
+.mostrar_tareas_completadas {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1rem;
+}
+
+#checkbox_done{
+    width: 20px;
+    margin: 10px;
+}

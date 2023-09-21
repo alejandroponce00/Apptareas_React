@@ -1,0 +1,21 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* #crear_usuario_link {
+  font-size: 1rem;
+  text-align: center;
+  padding: 8px;
+  color: #2b124c;
+  margin: 10px;
+}
+
+#crear_usuario_btn {
+  margin-top: 10px;
+  color: #fdf3ed;
+  justify-content: center;
+  align-items: center;
+} */
